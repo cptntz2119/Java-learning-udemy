@@ -53,6 +53,19 @@ public class Main {
             System.out.println("Either or both of the condition are true");
         }
 
+        boolean isCar = false;
+        if (isCar) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+
+        if (wasCar){
+            System.out.println("wasCar is ture");
+        }
+
+
 
     }
 }
