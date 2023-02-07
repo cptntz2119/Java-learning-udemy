@@ -30,5 +30,24 @@ public class Main {
             }
             System.out.println(l + " ");
         }
+
+        int number = 0;
+        while ( number < 15){
+            number++;
+
+            if (number <=5){
+                System.out.println("skipping number" + number);
+                continue;
+            }
+
+            System.out.println("current number is " + number);
+
+            if (number > 10){
+                System.out.println("breaking at " + number);
+                break;
+            }
+        }
     }
+
+
 }
